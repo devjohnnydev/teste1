@@ -1,0 +1,115 @@
+body 
+{ 
+    background: linear-gradient(0deg, rgba(51,51,51,1) 10%, rgba(222,92,255,1) 35%, #de5cff 65%, rgba(51,51,51,1) 90%);
+    font-family: 'Jersey 25', sans-serif;  
+}
+
+.logo h1 
+{ 
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+    text-align: center;
+    background-color: #454545; 
+    font-size: 100px;
+    padding: 13px;
+    position: relative;
+    top: -85px;
+}
+.logo img
+{ 
+height: 118px;
+width: 180px;
+position: relative;
+top: 20px;
+left: -15px;
+}
+
+.container {
+    background-color: #5656566f;
+    margin: 0 90px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+  }
+  
+  .galeria {
+    display: flex;
+    gap: 50px;
+    justify-content: center; 
+    margin: 40px 90px; 
+    flex-wrap: wrap; 
+
+  }
+  
+  .lol {
+    position: relative;
+    width: 600px; 
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #d9d9d9;
+    transition: transform 0.3s;
+  }
+  
+  .texto {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titulo {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .subtitulo {
+    font-size: 38px;
+    margin: 5px 0;
+  }
+  
+  .paragrafo {
+    font-size: 26px;
+    margin-top: 10px;
+  }
+  
+
+  
+  .fim footer {
+    background-color: #454545;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+    top: 210PX;
+}
+
+.menu ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -60px;
+}
+.menu a
+{
+    text-decoration: none;
+    background-color: #d9d9d9;
+    margin: 0;
+    padding: 15px 20px;
+    color: black;
+}
+.menu a:hover 
+{
+    background-color: #de5cff;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,125 @@
+body 
+{ 
+    background: linear-gradient(0deg, rgba(51,51,51,1) 10%, rgba(222,92,255,1) 35%, #de5cff 65%, rgba(51,51,51,1) 90%);
+}
+
+.logo h1 
+{ 
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+    text-align: center;
+    background-color: #454545; 
+    font-size: 100px;
+    padding: 13px;
+    position: relative;
+    top: -85px;
+}
+.logo img
+{ 
+height: 118px;
+width: 180px;
+position: relative;
+top: 20px;
+left: -15px;
+}
+
+.menu ul 
+{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -60px;
+}
+.menu a
+{
+    text-decoration: none;
+    background-color: #d9d9d9;
+    margin: 0;
+    padding: 15px 20px;
+    color: black;
+}
+.menu a:hover 
+{
+    background-color: #de5cff;
+    color: white;
+    text-decoration: none;
+}
+
+h2
+{
+    color: white;
+    font-family: 'Jersey 25', sans-serif;
+    text-align: center; 
+    font-size: 60px;
+}
+
+.IE img
+{
+    width: 130px;
+    position: relative;
+    left: 110px;
+    border-radius: 30%;
+    border: 3px solid #d9d9d9;   
+    display: flex;
+    margin-bottom: 25px;
+    z-index: -100px;
+}
+
+
+body {
+    font-family: 'Jersey 25', sans-serif;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 4px solid #d9d9d9;
+    background-color: #5656566f;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  
+  .item p {
+    margin: 0;
+    font-size: 45px;
+    color: white;
+  }
+.container a
+{
+    text-decoration: none;
+}
+
+
+  .fim footer {
+    background-color: #454545;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+    top: 210PX;
+}
+  
